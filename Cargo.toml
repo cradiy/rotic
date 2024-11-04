@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = [ "crates/rotic-aac", "crates/rotic-flac", "crates/rotic-mp3", "crates/rotic-ogg", "crates/rotic-wav","rotic"]
+
+[workspace.dependencies]
+base64 = { version = "0.22.1" }
+tokio = { version = "1.41.0" }
+op = "0.1.4"
